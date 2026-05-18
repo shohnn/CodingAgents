@@ -14,40 +14,50 @@ Con vuestra licencia de GitHub Copilot, podéis usarlo **sin coste adicional** �
 
 ## 1. Instalación en Windows
 
-### Opción A: Instalación directa (recomendada para empezar)
+### Paso 1: Instalar opencode CLI
 
-Abre **PowerShell** o **Windows Terminal** y ejecuta:
+Instala primero la CLI para que opencode esté disponible en tu sistema y pueda ejecutarse desde cualquier proyecto. Abre **PowerShell** o **Windows Terminal** y ejecuta una de estas opciones:
 
 ```powershell
-# Con Scoop (si lo tenéis instalado)
+# Opción recomendada si ya tenéis Node.js
+npm i -g opencode-ai@latest
+```
+
+Si preferís usar un gestor de paquetes de Windows:
+
+```powershell
+# Con Scoop
 scoop install opencode
 
 # Con Chocolatey
 choco install opencode
 ```
 
-Si no tenéis Scoop ni Chocolatey, podéis instalar Scoop primero:
+Si no tenéis Scoop instalado y queréis usarlo:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-### Opción B: App de escritorio
-
-Descargad el instalador de Windows (x64) desde: https://opencode.ai/download
-
-### Opción C: vía npm (si ya tenéis Node.js)
-
-```powershell
-npm i -g opencode-ai@latest
-```
-
-### Verificar la instalación
+Verifica que la CLI está disponible:
 
 ```powershell
 opencode --version
 ```
+
+### Paso 2: Instalar opencode Desktop
+
+La forma recomendada de usar opencode en el día a día es la app de escritorio. Después de verificar que la CLI funciona, instala Desktop para trabajar desde la interfaz visual y abrir tus proyectos desde ahí.
+
+Descargad el instalador de Windows (x64) desde: https://opencode.ai/download
+
+Una vez instalado:
+
+1. Abre opencode Desktop
+2. Selecciona la carpeta de tu proyecto
+3. Conecta GitHub Copilot desde la interfaz o usando `/connect` dentro de la sesión
+4. Usa **Tab** para cambiar entre agentes, igual que en la CLI
 
 ---
 
