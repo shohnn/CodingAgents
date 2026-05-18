@@ -268,5 +268,5 @@ Probad varios y quedaos con el que mejor os funcione para vuestro tipo de trabaj
 
 ---
 
-*Preparado por [Tu nombre] — Masterclass BAM Center, 20 mayo 2026*
-*¿Dudas? Escríbeme a [tu email]*
+*Preparado por John Sarria — Masterclass BAM Center, 20 mayo 2026*
+*¿Dudas? Escríbeme a john.sarria@offsiteplanner.app*
