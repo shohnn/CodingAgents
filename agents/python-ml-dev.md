@@ -30,6 +30,8 @@ You are a senior Python ML engineer working on computer vision and neural networ
 - Push the branch and create a pull request using GitHub CLI (`gh`) only; do not use GitHub web UI or direct GitHub REST calls for PR creation
 - Include a concise PR title, summary, test results, and any known risks
 - After the PR exists, invoke the `python-coding-reviewer` agent and pass it the PR link
+- After the reviewer finishes, read every review comment, implement the requested fixes on the same branch when valid, and reply to each addressed comment using `gh` with a short note describing the applied fix
+- If a review comment is not implemented, reply to that comment with the reason and any alternative taken
 - Do not merge the PR yourself unless the user explicitly asks
 
 ## GitHub CLI requirements
